@@ -21,7 +21,7 @@ import com.google.android.material.navigation.NavigationView
 class ActivityFriends: AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
     lateinit var drawerLayout: DrawerLayout
     lateinit var navView: NavigationView
-
+// komentarz 1234
     var modallist = ArrayList<Modal>()
     var names = arrayOf("Wrocław Brochów","Wrocław Brochów 2", "Wrocław Krzyki", "Wrocław Krzyki 2",
         "Wrocław Krzyki 3", "Wrocław Psie Pole", "Wrocław Psie Pole 2", "Realizacja Mirków","Realizacja Długołęka","Realizacja Byków")
