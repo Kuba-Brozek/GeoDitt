@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+    <group>
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/homepageicon"
+            android:title="Strona Główna"/>
+        <item
+            android:id="@+id/nav_messages"
+            android:icon="@drawable/contact"
+            android:title="Kontakt i mapa" />
+        <item
+
+
+            android:id="@+id/nav_friends"
+            android:icon="@drawable/imagegalery"
+            android:title="Galeria"/>
+
+
+        <item
+            android:id="@+id/nav_update"
+            android:icon="@drawable/ic_pdf"
+            android:title="Portfolio (PDF)"
+
+            />
+        <item
+            android:id="@+id/strona"
+            android:icon="@drawable/website"
+            android:title="Kliknij, aby przejść na stronę!"/>
+
+    </group>
+</menu>
